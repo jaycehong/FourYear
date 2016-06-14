@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coder.fouryear.framwork.BottomControlPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    
+     <com.coder.fouryear.framwork.ImageText
+        android:id="@+id/btn_fela_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.coder.fouryear.framwork.ImageText
+        android:id="@+id/btn_campus_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_fela_market"
+        />
+        
+    <com.coder.fouryear.framwork.ImageText
+        android:id="@+id/btn_lost_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+    
+  
+
+</com.coder.fouryear.framwork.BottomControlPanel>
