@@ -11,40 +11,82 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int back_pressed=0x7f020000;
-        public static final int campus_news_selected=0x7f020001;
-        public static final int campus_news_unselected=0x7f020002;
-        public static final int default_head=0x7f020003;
-        public static final int flea_market_selected=0x7f020004;
-        public static final int flea_market_unselected=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int icon=0x7f020007;
-        public static final int lost_found_selected=0x7f020008;
-        public static final int lost_found_unselected=0x7f020009;
-        public static final int search=0x7f02000a;
+        public static final int back=0x7f020000;
+        public static final int back_pressed=0x7f020001;
+        public static final int campus_news_selected=0x7f020002;
+        public static final int campus_news_unselected=0x7f020003;
+        public static final int checkbox=0x7f020004;
+        public static final int checkbox_empty=0x7f020005;
+        public static final int checkbox_selector=0x7f020006;
+        public static final int default_head=0x7f020007;
+        public static final int flea_market_selected=0x7f020008;
+        public static final int flea_market_unselected=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int icon=0x7f02000b;
+        public static final int login_btn_selector=0x7f02000c;
+        public static final int login_button_nor=0x7f02000d;
+        public static final int login_button_press=0x7f02000e;
+        public static final int login_edit_normal=0x7f02000f;
+        public static final int login_edit_pressed=0x7f020010;
+        public static final int login_editbox=0x7f020011;
+        public static final int login_error_icon=0x7f020012;
+        public static final int lost_found_selected=0x7f020013;
+        public static final int lost_found_unselected=0x7f020014;
+        public static final int search=0x7f020015;
+        public static final int welcome_picture=0x7f020016;
+        public static final int welcome_picture1=0x7f020017;
     }
     public static final class id {
-        public static final int back_button=0x7f050007;
-        public static final int bottom_layout=0x7f050001;
-        public static final int btn_campus_news=0x7f050005;
-        public static final int btn_fela_market=0x7f050004;
-        public static final int btn_lost_found=0x7f050006;
-        public static final int fragment_content=0x7f050003;
-        public static final int head_layout=0x7f050002;
-        public static final int id_drawerLayout=0x7f050000;
-        public static final int image_iamge_text=0x7f05000b;
-        public static final int midle_title=0x7f050008;
-        public static final int right_button=0x7f05000a;
-        public static final int right_title=0x7f050009;
-        public static final int text_iamge_text=0x7f05000c;
+        public static final int back_button=0x7f060007;
+        public static final int bottom_layout=0x7f060001;
+        public static final int btn_campus_news=0x7f060005;
+        public static final int btn_fela_market=0x7f060004;
+        public static final int btn_lost_found=0x7f060006;
+        public static final int fragment_content=0x7f060003;
+        public static final int head_layout=0x7f060002;
+        public static final int id_drawerLayout=0x7f060000;
+        public static final int image_iamge_text=0x7f06000b;
+        public static final int login_login_btn=0x7f060010;
+        public static final int login_passwd_edit=0x7f060012;
+        public static final int login_top_layout=0x7f06000d;
+        public static final int login_user_edit=0x7f060011;
+        public static final int midle_title=0x7f060008;
+        public static final int relativeLayout1=0x7f06000f;
+        public static final int remember_password_box=0x7f060013;
+        public static final int right_button=0x7f06000a;
+        public static final int right_title=0x7f060009;
+        public static final int text_iamge_text=0x7f06000c;
+        public static final int title=0x7f06000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int bottom_panel_layout=0x7f030001;
         public static final int head_panel_layout=0x7f030002;
         public static final int image_text_layout=0x7f030003;
+        public static final int login=0x7f030004;
+        public static final int welcome_screen=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
+    }
+    public static final class style {
+        /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        
+         */
+        public static final int AppBaseTheme=0x7f050000;
+        /**  Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
+         */
+        public static final int AppTheme=0x7f050002;
+        public static final int MyCheckBox=0x7f050001;
     }
 }
